@@ -1,7 +1,17 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import InboxScreen from './components/InboxScreen.vue';
 </script>
+
+<template>
+  <div id="app">
+    <InboxScreen />
+  </div>
+</template>
+
+<style>
+@import './index.css';
+</style>
+
 
 <template>
   <header>

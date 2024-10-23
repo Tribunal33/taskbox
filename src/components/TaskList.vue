@@ -15,7 +15,7 @@
     name: 'TaskList',
     setup() {
         const store = useTaskStore();
-        const tasks = computed(() => getFilteredTasks);
+        const tasks = computed(() => store.getFilteredTasks);
         const archivedTask = ((tasks) => store.archiveTask(task));
         const pinnedTask = ((tasks) => store.pinnedTask(task));
 
