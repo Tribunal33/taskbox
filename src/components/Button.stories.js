@@ -37,7 +37,7 @@ export const Large = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/Wf7sDlUg2372jaKKTJ0Mgz/OJS-3.4-3.5?node-id=6351-5268&t=IQyRANnZmoe4PqIK-4",
+      url: 'https://www.figma.com/design/Wf7sDlUg2372jaKKTJ0Mgz/OJS-3.4-3.5?node-id=3377-5846&t=lht7l6tRhELFIBAQ-4',
     },
   },
 }
@@ -46,5 +46,12 @@ export const Small = {
   args: {
     size: 'small',
     label: 'Button'
+  },
+  parameters: {
+    design: {
+      type: 'figspec',
+      url: 'https://www.figma.com/design/Wf7sDlUg2372jaKKTJ0Mgz/OJS-3.4-3.5?node-id=3406-6105&t=lht7l6tRhELFIBAQ-4',
+      accessToken: '<ADD YOUR OWN FIGMA TOKEN>'
+    }
   }
 }
