@@ -51,7 +51,7 @@ export const Small = {
     design: {
       type: 'figspec',
       url: 'https://www.figma.com/design/Wf7sDlUg2372jaKKTJ0Mgz/OJS-3.4-3.5?node-id=3406-6105&t=lht7l6tRhELFIBAQ-4',
-      accessToken: 'figd_QptPXkChK_XffLchclE3TyWmMsKhI7uRQ21LcER4'
+      accessToken: '<ADD YOUR OWN FIGMA TOKEN>'
     }
   }
 }
